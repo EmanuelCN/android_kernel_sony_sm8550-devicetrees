@@ -1,4 +1,4 @@
-SOMC_TARGET_PRODUCT := pdx234
+SOMC_TARGET_PRODUCT := pdx237
 SOMC_TARGET_OPERATOR := generic
 SOMC_PLATFORM := yodo
 
@@ -37,9 +37,9 @@ endif
 
 SOMC_PRODUCT_OPERATOR = $(SOMC_TARGET_PRODUCT)_$(SOMC_TARGET_OPERATOR)
 
-ifneq ($(filter pdx234_generic ,$(SOMC_PRODUCT_OPERATOR)),)
+ifneq ($(filter pdx237_generic ,$(SOMC_PRODUCT_OPERATOR)),)
 dtbo-y += display/kalama-sde.dtbo \
-	display/kalama-sde-display-pdx234-overlay.dtbo
+	display/kalama-sde-display-pdx237-overlay.dtbo
 endif
 
 always-y    := $(dtb-y) $(dtbo-y)

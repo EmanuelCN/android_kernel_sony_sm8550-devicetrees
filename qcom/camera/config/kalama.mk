@@ -1,13 +1,13 @@
 dtbo-$(CONFIG_ARCH_KALAMA) := kalama-camera.dtbo
 
-SOMC_TARGET_PRODUCT := pdx234
+SOMC_TARGET_PRODUCT := pdx237
 SOMC_TARGET_OPERATOR := generic
 SOMC_PLATFORM := yodo
 
 ifeq ($(SOMC_PLATFORM), yodo)
 
-ifeq ($(SOMC_TARGET_PRODUCT),pdx234)
-dtbo-$(CONFIG_ARCH_KALAMA)		+= kalama-camera-sensor-pdx234.dtbo
+ifeq ($(SOMC_TARGET_PRODUCT),pdx237)
+dtbo-$(CONFIG_ARCH_KALAMA)		+= kalama-camera-sensor-pdx237.dtbo
 endif
 
 else
