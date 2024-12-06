@@ -69,7 +69,7 @@
 			power-domain-names = "psci";
 			cpu-release-addr = <0x0 0xE3940000>;
 			qcom,freq-domain = <&cpufreq_hw 0>;
-			capacity-dmips-mhz = <820>;
+			capacity-dmips-mhz = <361>;
 			dynamic-power-coefficient = <100>;
 			#cooling-cells = <2>;
 			next-level-cache = <&L2_0>;
@@ -95,7 +95,7 @@
 			power-domain-names = "psci";
 			cpu-release-addr = <0x0 0xE3940000>;
 			qcom,freq-domain = <&cpufreq_hw 0>;
-			capacity-dmips-mhz = <820>;
+			capacity-dmips-mhz = <361>;
 			dynamic-power-coefficient = <100>;
 			#cooling-cells = <2>;
 			next-level-cache = <&L2_1>;
@@ -116,7 +116,7 @@
 			power-domain-names = "psci";
 			cpu-release-addr = <0x0 0xE3940000>;
 			qcom,freq-domain = <&cpufreq_hw 0>;
-			capacity-dmips-mhz = <820>;
+			capacity-dmips-mhz = <361>;
 			dynamic-power-coefficient = <100>;
 			#cooling-cells = <2>;
 			next-level-cache = <&L2_1>;
@@ -132,7 +132,7 @@
 			power-domain-names = "psci";
 			cpu-release-addr = <0x0 0xE3940000>;
 			qcom,freq-domain = <&cpufreq_hw 1>;
-			capacity-dmips-mhz = <1800>;
+			capacity-dmips-mhz = <801>;
 			dynamic-power-coefficient = <270>;
 			#cooling-cells = <2>;
 			next-level-cache = <&L2_3>;
@@ -153,7 +153,7 @@
 			power-domain-names = "psci";
 			cpu-release-addr = <0x0 0xE3940000>;
 			qcom,freq-domain = <&cpufreq_hw 1>;
-			capacity-dmips-mhz = <1800>;
+			capacity-dmips-mhz = <801>;
 			dynamic-power-coefficient = <270>;
 			#cooling-cells = <2>;
 			next-level-cache = <&L2_4>;
@@ -175,7 +175,7 @@
 			power-domain-names = "psci";
 			cpu-release-addr = <0x0 0xE3940000>;
 			qcom,freq-domain = <&cpufreq_hw 1>;
-			capacity-dmips-mhz = <1800>;
+			capacity-dmips-mhz = <801>;
 			dynamic-power-coefficient = <270>;
 			#cooling-cells = <2>;
 			next-level-cache = <&L2_5>;
@@ -196,7 +196,7 @@
 			power-domain-names = "psci";
 			cpu-release-addr = <0x0 0xE3940000>;
 			qcom,freq-domain = <&cpufreq_hw 1>;
-			capacity-dmips-mhz = <1800>;
+			capacity-dmips-mhz = <801>;
 			dynamic-power-coefficient = <270>;
 			#cooling-cells = <2>;
 			next-level-cache = <&L2_6>;
@@ -217,7 +217,7 @@
 			power-domain-names = "psci";
 			cpu-release-addr = <0x0 0xE3940000>;
 			qcom,freq-domain = <&cpufreq_hw 2>;
-			capacity-dmips-mhz = <1894>;
+			capacity-dmips-mhz = <1024>;
 			dynamic-power-coefficient = <588>;
 			#cooling-cells = <2>;
 			next-level-cache = <&L2_7>;
